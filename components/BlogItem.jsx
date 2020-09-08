@@ -13,7 +13,7 @@ const BlogItem = ({ blog }) => {
                     <Link as={`/blogs/${blog}`} href='/blogs/[slug]'>
                         <a>
                             Explore
-                    </a>
+                        </a>
                     </Link>
                 </div>
             </div>

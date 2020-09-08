@@ -5,7 +5,7 @@ const blog = ({ blogs }) => {
 
     return (
         <div className='container'>
-            <p className="flow-text center red-text">Blogs</p>
+            <h4 className="center red-text">Blogs</h4>
             <div className="row">
                 {blogs.map(blog => <BlogItem key={blog} blog={blog} />)}
             </div>

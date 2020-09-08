@@ -6,6 +6,7 @@ import Head from 'next/head';
 import { Fragment } from 'react';
 import ReactMarkdown from 'react-markdown';
 import CodeBlocks from '../../components/CodeBlocks';
+import Footer from '../../components/Footer';
 
 const blog = ({ data: { title, description }, htmlString, content }) => {
 
@@ -29,6 +30,7 @@ const blog = ({ data: { title, description }, htmlString, content }) => {
                     renderers={{ code: CodeBlocks }}
                 />
             </div>
+            <Footer />
         </Fragment>
     )
 }

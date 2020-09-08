@@ -3,8 +3,6 @@ title: Sync State
 description: Synchronize State In Between Tabs
 ---
 
-# use-sync-set-state
-
 - This React Hook lets you store the state in localStorage and sync it in between tabs, automagically.
 
 - **use-sync-set-state** is a superset of useState i.e, you can always set the state explicitly or via callback function, your call.
